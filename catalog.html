@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог-Дизайн-студия "Нердс"</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,15 +19,13 @@
         <li><a>Магазин</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-      <ul class="user-block">
+      <ul class="user-navigation">
         <li class="user-cart"><a class="cart-link" href="cart.html">Корзина</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section class="promo">
-      <h1 class="page-title">Магазин готовых шаблонов</h1>
-    </section>
+    <h1 class="page-title">Магазин готовых шаблонов</h1>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -34,7 +35,7 @@
           </legend>
           <ul>
             <li class="filter-option">
-              <input class="visually-hidden filter-input-radio" type="radio" name="filter-grid-group" value="adapted" id="filter-adapted" checked />
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="filter-grid-group" value="adapted" id="filter-adapted" checked />
               <label for="filter-adapted">Адаптированная</label>
             </li>
             <li class="filter-option">
@@ -53,7 +54,7 @@
           </legend>
           <ul>
             <li class="filter-option">
-              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked />
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked />
               <label for="filter-slider">Слайдер</label>
             </li>
             <li class="filter-option">

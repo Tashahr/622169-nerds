@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #fb565a;
+  background-color: #eeeeee;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #e74246;
+}
+
+.button:active {
+  color: #ffffff;
+  background-color: #d7373b;
+}
+
+.about-company {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.about-company .slider-header {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-item h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services-item p {
+  color: #283136;
+}
+
+.button-green {
+  background-color: #00ca74;
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #00bc6c;
+}
+
+.button-green:active {
+  background-color: #00aa62;
+}
+
+.button-yellow {
+  background-color: #efc84a;
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background-color: #eab534;
+}
+
+.button-yellow:active {
+  background-color: #e5a722;
+}
+
+.promo {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.about-us-main h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-us-list {
+  list-style: none;
+}
+
+.about-us-since p {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-us-since .percentage {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.partners-list {
+  list-style: none;
+}
+
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 20px;
+}
+
+.filter-input {
+  color: #4d4d4d;
+  opacity: 0.4;
+}
+
+.filter-input:hover .filter-input:focus {
+  color: #4d4d4d;
+}
+
+.filter-input:disabled {
+  color: #4d4d4d;
+  opacity: 0.1;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item img {
+  border: 1px solid rgba(00, 01, 01, 0.1)
+}
+
+.catalog-item img:hover {
+  box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25);
+}
+
+.catalog-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.catalog-pop-up h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.catalog-pop-up p {
+  text-align: center;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:active {
+  background-color: #d5d5d5;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  background-color: white;
+  border: 3px solid #dbdbdb;
+}
+
+.modal h2 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.studio-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.social-button {
+  list-style: none;
+}
+
+.social-button a {
+  color: inherit;
+}
+
+.slogan {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}

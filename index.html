@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Главная-Дизайн-студия "Нердс"</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +19,7 @@
         <li><a href="catalog.html">Магазин</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-      <ul class="user-block">
+      <ul class="user-navigation">
         <li class="user-cart"><a class="cart-link" href="cart.html">Корзина</a></li>
       </ul>
     </nav>
@@ -25,8 +28,8 @@
     <h1 class="visually-hidden">Дизайн-студия Нердс</h1>
     <section class="about-company">
       <h2 class="visually-hidden">О компании</h2>
-      <p class="slider-text">Долго, дорого, скрупулезно.</p>
-      <p>
+      <p class="slider-header">Долго, дорого, скрупулезно.</p>
+      <p class="slider-text">
         Математически выверенный дизайн
         для вашего сайта или мобильного приложения.
       </p>
@@ -69,17 +72,17 @@
       <h2 class="visually-hidden">О нас</h2>
       <section class="about-us-main">
         <h3 class="visually-hidden">Наши принципы</h3>
-        <p>
+        <p class="promo">
           Мы — маленькая, но гордая
           дизайн-студия из Краснодара.
         </p>
-        <p>
+        <p class="description">
           Исповедуем принципы минимализма и чистоты. Ставим математический расчет
           превыше креатива. Работаем не покладая рук, как роботы.
         </p>
-        <p>
+        <h3>
           Выполняем заказы на разработку:
-        </p>
+        </h3>
         <ul class="about-us-list">
           <li>Веб-сайтов любой сложности</li>
           <li>Мобильных приложений для iOS и Android</li>
@@ -91,32 +94,30 @@
         <p>
           C 2004 года любим точность во всем:
         </p>
-        <ul class="value">
-          <li class="value-item">
-            <p class="value-stats">
-              146%
-            </p>
-            <p class="value-text">
-              Уровень самоотдачи
-            </p>
-          </li>
-          <li class="value-item">
-            <p class="value-stats">
-              100%
-            </p>
-            <p class="value-text">
-              Соблюдение сроков
-            </p>
-          </li>
-          <li class="value-item">
-            <p class="value-stats">
-              50%
-            </p>
-            <p class="value-text">
-              Минимальная предоплата
-            </p>
-          </li>
-        </ul>
+        <table>
+          <tr class="percentage">
+            <td>
+              146<sup>%</sup>
+            </td>
+            <td>
+              100<sup>%</sup>
+            </td>
+            <td>
+              50<sup>%</sup>
+            </td>
+          </tr>
+          <tr class="percentage-value">
+            <td>
+              Уровень <br />самоотдачи
+            </td>
+            <td>
+              Соблюдение <br />сроков
+            </td>
+            <td>
+              Минимальная <br />предоплата
+            </td>
+          </tr>
+        </table>
       </section>
     </section>
     <section class="partners">
@@ -139,17 +140,14 @@
     <section class="modal modal-user-message">
       <h2>Напишите нам</h2>
       <form class="message-form" action="#" method="post">
-        <label class="visually-hidden">
-          Ваше имя:<input class="user-name" type="text" name="name" value="" placeholder="Имя Фамилия" />
-        </label>
-        <label class="visually-hidden">Ваш e-mail:
-          <input class="user-email" type="text" name="email" value="" placeholder="email@example.com" />
-        </label>
+        <label for="user-name">Ваше имя:</label>
+        <input id="user-name" type="text" name="name" value="" placeholder="Имя Фамилия" />
+        <label for="user-email">Ваш e-mail:</label>
+        <input id="user-email" type="text" name="email" value="" placeholder="email@example.com" />
         <p>
-          <label class="visually-hidden">Текст письма:
-            <textarea class="user-text" rows="10" placeholder="В свободной форме">
-            </textarea>
-          </label>
+          <label for="user-text">Текст письма:</label>
+          <textarea id="user-text" rows="10" placeholder="В свободной форме">
+          </textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
       </form>
@@ -164,7 +162,7 @@
       </p>
       <p class="address-full">
         191186, Санкт-Петербург,
-        ул. Б. Конюшенная, д. 19/8
+        <br />ул. Б. Конюшенная, д. 19/8
       </p>
       <p class="phone">
         тел. +7 (812) 275-75-75
